@@ -1,0 +1,49 @@
+
+ 
+		#menu ul {
+			padding:0px;
+			margin:0px;
+			float: left;
+			width: 100%;
+			background-color:#EDEDED;
+			list-style:none;
+			font:80% Tahoma;
+		}
+ 
+		#menu ul li { display: inline; }
+ 
+		#menu ul li a {
+			background-color:#EDEDED;
+			color: #333;
+			text-decoration: none;
+			border-bottom:3px solid #EDEDED;
+			padding: 2px 10px;
+			float:left;
+		}
+ 
+		#menu ul li a:hover {
+			background-color:#D6D6D6;
+			color: #6D6D6D;
+			
+		}
+		
+		.contrast {
+		float: right;
+		}
+		
+		
+.container {
+  width: 50%; /* define a largura do campo */ 
+  position: relative;  /* cria o contexto de posicionamento do botão */ 
+}
+label {display:block;}
+input {width: 100%;} /* define a largura do campo igual a largura do container */
+input,  button {padding: 10px;}
+button {
+  position: absolute;   
+  top: 0; 
+  right: 0;
+  /* posiciona o botão em relação ao container, mas
+  como o campo está exatamente contido no container
+  o posicionamento se dá também em relação ao campo */
+}
